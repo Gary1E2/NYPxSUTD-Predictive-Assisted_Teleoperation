@@ -1,7 +1,15 @@
 # NYPxSUTD-Predictive-Assisted_Teleoperation
 ## Full Time Semester Project collaboration between NYP and SUTD
+Uses:
+- Local LiDAR sensor perception of vehicle environment
+- Model Predictive Path Integral (MPPI) planner for autonomous motion
+- Joystick gamepad control
 
 # Project Overview:
+<p align="center">
+  <img src="FinalPhysicalTest-PT1.gif" width="30%"/>
+  <img src="FinalPhysicalTest-PT3.gif" width="30%"/>
+</p>
 
 ## EVAM:
 EVAM (Electric Vehicle Additive Manufacturing) is a project from SUTD focused on transforming electric vehicle component design and fabrication. It leverages 3D printing additive manufacturing and AI to design and create various car parts, aiming to replace conventional components with more flexible and efficient 3D-printed alternatives. This can help significantly accelerate design cycles and enable complex, lightweight and optimized electric vehicle components.
@@ -229,7 +237,9 @@ NYPxSUTD-Predictive-Assisted_Teleoperation
 ```
 
 # System Architecture:
-
+<p align="center">
+  <img src="pre_teleop_mk3.drawio.png">
+</p>
 
 # How it Works (simplified):
 - scan_preprocess_node.py: Downsamples LiDAR scans and limits it's min and max range.
