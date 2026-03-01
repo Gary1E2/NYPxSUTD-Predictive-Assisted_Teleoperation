@@ -118,6 +118,10 @@ sudo apt install ros-humble-nav2-bringup -y
 ```
 
 # Quick Start Guide:
+<p align="center">
+  <img src="assets/ControlBindings.png">
+</p>
+
 The control bindings are as follows (uses Logitech F710 Gamepad):
 - Left Horizontal Joystick: Speed forward and reverse drive
 - Right Horizontal Joystick: Steer left and right
@@ -183,14 +187,14 @@ nano [map].yaml
 
 ```bash
 NYPxSUTD-Predictive-Assisted_Teleoperation
-├─── demovids
+├─── demovids                                {Folder for demo videos}
 │   ├─── reactive_wall_demo.mp4
 │   ├─── avoid_mk1_demo.mp4
 │   ├─── ...
-├─── pre_teleop_mk3
+├─── pre_teleop_mk3                          {ROS2 package for final teleop assistance system)
 │   ├─── launch
-│   │  └─── launch.py
-│   ├─── pre_teleop_mk3
+│   │  └─── launch.py                            {ROS2 launch file}
+│   ├─── pre_teleop_mk3                          {Folder for ROS2 package code files}
 │   │   ├─── __init__.py
 │   │   ├─── aeb_node.py
 │   │   ├─── command_clamp_node.py
@@ -207,10 +211,10 @@ NYPxSUTD-Predictive-Assisted_Teleoperation
 │   │   └─── teleop_state_node.py
 │   ├─── resource
 │   │   └─── pre_teleop_mk3
-│   ├─── package.xml
-│   ├─── setup.cfg
-│   └─── setup.py
-├─── pre_teleop_mk2
+│   ├─── package.xml                             {ROS2 package configuration file}
+│   ├─── setup.cfg                               {ROS2 package configuration file}
+│   └─── setup.py                                {ROS2 package configuration file}
+├─── pre_teleop_mk2                          {ROS2 package for previous teleop assistance system}
 │   ├─── launch
 │   │   └─── launch.py
 │   ├─── pre_teleop_mk2
@@ -221,7 +225,7 @@ NYPxSUTD-Predictive-Assisted_Teleoperation
 │   ├─── package.xml
 │   ├─── setup.cfg
 │   └─── setup.py
-├─── pre_teleop_mk1
+├─── pre_teleop_mk1                          {ROS2 package for previous teleop assistance system}
 │   ├─── launch
 │   │   └─── launch.py
 │   ├─── pre_teleop_mk1
@@ -232,8 +236,8 @@ NYPxSUTD-Predictive-Assisted_Teleoperation
 │   ├─── package.xml
 │   ├─── setup.cfg
 │   └─── setup.py
-├─── LICENSE
-└─── README.md                      {project information /THIS FILE/}
+├─── LICENSE                                {MIT License}
+└─── README.md                              {project information /THIS FILE/}
 ```
 
 # System Architecture:
