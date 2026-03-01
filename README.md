@@ -7,8 +7,8 @@ Uses:
 
 # Project Overview:
 <p align="center">
-  <img src="FinalPhysicalTest-PT1.gif" width="30%"/>
-  <img src="FinalPhysicalTest-PT3.gif" width="30%"/>
+  <img src="assets/FinalPhysicalTest-PT1.gif" width="30%"/>
+  <img src="assets/FinalPhysicalTest-PT3.gif" width="30%"/>
 </p>
 
 ## EVAM:
@@ -238,7 +238,7 @@ NYPxSUTD-Predictive-Assisted_Teleoperation
 
 # System Architecture:
 <p align="center">
-  <img src="pre_teleop_mk3.drawio.png">
+  <img src="assets/pre_teleop_mk3.drawio.png">
 </p>
 
 # How it Works (simplified):
